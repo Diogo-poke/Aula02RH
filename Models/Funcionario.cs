@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Aula02RH.Models.Enuns;
 
+// Um comentario qualquer
 namespace Aula02RH.Models
 {
     public class Funcionario
