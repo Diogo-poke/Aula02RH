@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Aula02RH.Models.Enuns;
 
 // Um comentario qualquer
+
 namespace Aula02RH.Models
 {
     public class Funcionario
@@ -20,6 +21,21 @@ namespace Aula02RH.Models
         {
                 Salario = Salario + (Salario * 10/100);
         }
+     
+          private int ContarCaracteres(string dado) 
+     {
+            return dado.Length;
+     }
+ 
+        public bool ValidarCpf() 
+        {
+            if(ContarCaracteres(Cpf) == 11)
+             return true;
+
+             else
+             return false;
+        }
+
 
         public string ExibirPeriodoExperiencia()
         {
